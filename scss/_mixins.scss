@@ -1,0 +1,21 @@
+@mixin clearfixed(){
+	&:after {
+		display: table;
+		content: " ";
+		clear: both;
+	}
+}
+
+/*.clearfixed {
+	&:before,
+	&:after {
+		display:table;
+		content: " ";
+		clear: both;
+		overflow:hidden;
+	}
+} */
+
+@mixin my-border{
+	border: solid .1em black;
+}

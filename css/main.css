@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro|Merriweather|Cardo);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*.clearfixed {
+	&:before,
+	&:after {
+		display:table;
+		content: " ";
+		clear: both;
+		overflow:hidden;
+	}
+} */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 96em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 62.5%;
+}
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+::-moz-selection {
+  background: #ffc5d5;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ffc5d5;
+  text-shadow: none;
+}
+
+h1 {
+  font-size: 4.4em;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h2, h3, h4, h5 {
+  font-size: 3.4em;
+  font-family: cardo-font;
+}
+
+nav, p {
+  font-size: 1.5em;
+  font-family: "Source Serif Pro", serif;
+}
+
+nav {
+  float: right;
+  width: 100%;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: black;
+}
+nav ul li a:hover,
+nav ul li a:active {
+  color: #ff96b6;
+}
+
+header,
+main,
+nav {
+  padding: 1em;
+}
+header:after,
+main:after,
+nav:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+figure {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  padding: 10px;
+}
+
+section p {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  border: solid .1em black;
+  width: 100%;
+  bottom: 0em;
+  left: 0em;
+}
+footer p {
+  font-size: 1.3em;
+}
